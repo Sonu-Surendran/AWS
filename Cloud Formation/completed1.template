@@ -1,6 +1,6 @@
 {
     "AWSTemplateFormatVersion": "2010-09-09",
-    "Description": "This is stack created for Assignment 5 of module 8",
+    "Description": "This is stack created for Cloud Formation",
     "Resources": {
         "newVPC": {
             "Type": "AWS::EC2::VPC",
@@ -9,7 +9,7 @@
                 "Tags": [
                     {
                         "Key": "Name",
-                        "Value": "assignment5_VPC"
+                        "Value": "CF_VPC"
                     }
                 ]
             },
@@ -30,7 +30,7 @@
                 "Tags": [
                     {
                         "Key": "Name",
-                        "Value": "assignment5_PublicSubnet"
+                        "Value": "CF_PublicSubnet"
                     }
                 ]
             },
@@ -50,7 +50,7 @@
                 "Tags": [
                     {
                         "Key": "Name",
-                        "Value": "assignment5_PrivateSubnet"
+                        "Value": "CF_PrivateSubnet"
                     }
                 ]
             },
@@ -71,7 +71,7 @@
                 "Tags": [
                     {
                         "Key": "Name",
-                        "Value": "assignment5_DBSubnet"
+                        "Value": "CF_DBSubnet"
                     }
                 ]
             },
@@ -92,7 +92,7 @@
                 "Tags": [
                     {
                         "Key": "Name",
-                        "Value": "assignment5_DBSubnet"
+                        "Value": "CF_DBSubnet"
                     }
                 ]
             }
@@ -113,7 +113,7 @@
                 "Tags": [
                     {
                         "Key": "Name",
-                        "Value": "assignment5"
+                        "Value": "CF"
                     }
                 ]
             }
@@ -124,7 +124,7 @@
                 "Tags": [
                     {
                         "Key": "Name",
-                        "Value": "assignment5_IGW"
+                        "Value": "CF_IGW"
                     }
                 ]
             },
@@ -186,7 +186,7 @@
                 "Tags": [
                     {
                         "Key": "Name",
-                        "Value": "assignment5_subnetTB"
+                        "Value": "CF_subnetTB"
                     }
                 ]
             },
@@ -205,7 +205,7 @@
                 "Tags": [
                     {
                         "Key": "Name",
-                        "Value": "assignment5_privateroute"
+                        "Value": "CF_privateroute"
                     }
                 ]
             }
@@ -300,7 +300,7 @@
                 "Tags": [
                     {
                         "Key": "Name",
-                        "Value": "assignment5_PublicSG"
+                        "Value": "CF_PublicSG"
                     }
                 ]
             },
@@ -345,7 +345,7 @@
                 "Tags": [
                     {
                         "Key": "Name",
-                        "Value": "assignment5_privateSG"
+                        "Value": "CF_privateSG"
                     }
                 ]
             },
@@ -386,7 +386,7 @@
                 "Tags": [
                     {
                         "Key": "Name",
-                        "Value": "assignment5"
+                        "Value": "CF_PublicInstance"
                     }
                 ],
                 "UserData": {
@@ -418,7 +418,7 @@
                 "Tags": [
                     {
                         "Key": "Name",
-                        "Value": "assignment5"
+                        "Value": "CF_PrivateInstance"
                     }
                 ],
                 "UserData": {
